@@ -23,3 +23,12 @@ set expandtab
 
 let maplocalleader = ","
 noremap <LocalLeader>d :NERDTreeToggle<CR>
+noremap <LocalLeader>b :CtrlPBuffer<CR>
+"noremap <LocalLeader>f :CtrlPCurWD<CR>
+noremap <LocalLeader>f :NERDTreeFind<CR>
+
+" hide the menu bar (gvim)
+set guioptions -=m
+" hide the toolbar (gvim)
+set guioptions -=T
+
