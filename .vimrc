@@ -32,6 +32,6 @@ set guioptions -=m
 " hide the toolbar (gvim)
 set guioptions -=T
 
-" set y/p to copy/paste into both of X11's PRIMARY and CLIPBOARD selections
-set clipboard+=unnamed
+" set y/p to copy/paste into both of X11's CLIPBOARD selections - use
+" clipboard manager to sync X11 buffers
 set clipboard+=unnamedplus

@@ -67,6 +67,3 @@
 !
 URxvt.font:xft:terminus:size=9
 URxvt*scrollBar: false
-
-! --- selection-to-clipboard causes urxvt to use X CLIPBOARD
-URxvt.perl-ext-common: default,matcher,selection-to-clipboard,font-size
