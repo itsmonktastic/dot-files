@@ -157,3 +157,4 @@ bar {
 }
 
 exec clipit
+exec sh "feh --bg-fill $HOME/.config/background"
