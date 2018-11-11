@@ -65,7 +65,7 @@
 ! --- end of terminal colors section -------------------------------------------
 ! ------------------------------------------------------------------------------
 !
-URxvt.font:xft:terminus:size=9
+URxvt.font:xft:terminus:size=11
 URxvt*scrollBar: false
 
 URxvt*transparent: true
