@@ -67,3 +67,6 @@
 !
 URxvt.font:xft:terminus:size=9
 URxvt*scrollBar: false
+
+URxvt*transparent: true
+URxvt*shading: 5
