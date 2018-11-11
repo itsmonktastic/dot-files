@@ -12,4 +12,5 @@ ln -is $DOTFILES_DIR/.vimrc $HOME/.vimrc
 ln -is $DOTFILES_DIR/.Xdefaults $HOME/.Xdefaults
 ln -is $DOTFILES_DIR/i3_config $HOME/.config/i3/config
 ln -is $DOTFILES_DIR/clipitrc $HOME/.config/clipit/clipitrc
+ln -is $DOTFILES_DIR/i3status_conf $HOME/.i3status.conf
 
