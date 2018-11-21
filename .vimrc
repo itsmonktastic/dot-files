@@ -6,6 +6,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jnurmine/Zenburn'
+Plug 'joukevandermaas/vim-ember-hbs'
 "Plug 'mhinz/vim-grepper' " vim 8
 call plug#end()
 
@@ -35,3 +36,6 @@ set guioptions -=T
 " set y/p to copy/paste into both of X11's CLIPBOARD selections - use
 " clipboard manager to sync X11 buffers
 set clipboard+=unnamedplus
+
+" allow transparency
+hi Normal guibg=NONE ctermbg=NONE
