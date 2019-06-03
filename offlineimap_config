@@ -1,0 +1,20 @@
+[general]
+accounts = itsmonktastic
+ui = ttyui
+socktimeout = 30
+pythonfile=~/offlineimap-helpers.py
+
+[Account itsmonktastic]
+localrepository = local-itsmonktastic
+remoterepository = remote-itsmonktastic
+
+[Repository local-itsmonktastic]
+type = Maildir
+localfolders = /home/tim/Mail/itsmonktastic
+
+[Repository remote-itsmonktastic]
+type = Gmail
+remoteuser = itsmonktastic@gmail.com
+remotepasseval = get_password("itsmonktastic@gmail.com")
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda f: f == 'INBOX'
