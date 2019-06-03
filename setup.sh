@@ -14,4 +14,5 @@ sudo apt-get -y install \
   feh \
   mutt \
   offlineimap \
-  python-keyring
+  python-keyring \
+  w3m

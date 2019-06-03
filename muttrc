@@ -1,0 +1,21 @@
+## sending mail
+set realname = "Tim Monks"
+set reverse_name = yes
+set from =  "t.r.monks@gmail.com"
+set smtp_url = "smtp://itsmonktastic@smtp.gmail.com:587/"
+
+set mbox_type = Maildir
+set folder = /home/tim/Mail/itsmonktastic
+
+set spoolfile = +/INBOX/
+set header_cache = /home/tim/Mail/cache/
+
+## writing mail
+set editor = "vim +:silent+/^$ "
+
+set allow_ansi
+
+# used for converting mail to plaintext for mutt
+set mailcap_path = ~/.mutt/mailcap
+auto_view text/html
+alternative_order text/plain text/html
