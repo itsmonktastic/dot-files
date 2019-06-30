@@ -19,4 +19,5 @@ ln -is $DOTFILES_DIR/urxvt-extensions/font-size $HOME/.urxvt/ext/font-size
 ln -is $DOTFILES_DIR/offlineimap_config $HOME/.offlineimaprc
 ln -is $DOTFILES_DIR/muttrc $HOME/.muttrc
 ln -is $DOTFILES_DIR/mutt_mailcap $HOME/.mutt/mailcap
-ln -is $DOTFILESDIR/bash_aliases $HOME/.bash_aliases
+ln -is $DOTFILES_DIR/bash_aliases $HOME/.bash_aliases
+ln -is $DOTFILES_DIR/dotbashrc $HOME/.bashrc
