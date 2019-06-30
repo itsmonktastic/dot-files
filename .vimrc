@@ -28,6 +28,7 @@ runtime ftplugin/man.vim
 colorscheme zenburn
 set nu " show line numbers
 set cursorline " highlight current line
+set colorcolumn=81,121 " show 80char/120char widths
 
 if has("gui_running")
   set guifont=terminus\ 11 " needs to be installed
@@ -60,7 +61,8 @@ noremap <Leader>d :NERDTreeToggle<CR>
 noremap <Leader>f :NERDTreeFind<CR>
 noremap <Leader>c :NERDTreeCWD<CR>
 noremap <Leader>b :CtrlPBuffer<CR>
-noremap <Leader>t :tabnew<CR>
+noremap <Leader>t :CtrlP<CR>
+noremap <Leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 
 " tab switching shortcuts - got used to these on osx
 map <A-}> gt
