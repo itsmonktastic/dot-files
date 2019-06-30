@@ -1,6 +1,7 @@
 #!/bin/sh
 #
-# Deal with problematic driver for my edimax usb wifi dongle
+# Deal with problematic driver for my edimax usb wifi dongle.
+# Needs to be run as root.
 
 set -e
 
