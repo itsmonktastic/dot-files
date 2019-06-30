@@ -12,6 +12,7 @@
 sudo apt-get -y install \
   git \
   vim \
+  vim-gtk3 \
   feh \
   offlineimap \
   clipit \
