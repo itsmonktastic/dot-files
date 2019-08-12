@@ -124,4 +124,5 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-export PATH=/home/tim/.gem/ruby/2.5.0/bin/:$PATH
+export PATH=$HOME/.gem/ruby/2.5.0/bin/:$PATH
+export PATH=$HOME/bin/:$PATH
