@@ -21,6 +21,7 @@ ln -fs $DOTFILES_DIR/muttrc $HOME/.muttrc
 ln -fs $DOTFILES_DIR/mutt_mailcap $HOME/.mutt/mailcap
 ln -fs $DOTFILES_DIR/bash_aliases $HOME/.bash_aliases
 ln -fs $DOTFILES_DIR/dotbashrc $HOME/.bashrc
+ln -fs $DOTFILES_DIR/dotgemrc $HOME/.gemrc
 
 git config --global user.email "t.r.monks@gmail.com"
 git config --global user.name "Tim Monks"

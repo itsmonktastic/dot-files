@@ -4,6 +4,9 @@
 
 set -ex
 
+# this will configure gem to install into $HOME by default
+ln -s dotgemrc $HOME/.gemrc
+
 # ruby-dev needed to build native extensions
 # build-essential because you need C++ toolchain to develop ruby
 # libxml2-dev needed to build nokogiri
