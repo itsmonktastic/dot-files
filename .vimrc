@@ -80,3 +80,19 @@ autocmd BufNewFile,BufRead *.rb set shiftwidth=2
 autocmd BufNewFile,BufRead *.rb set tabstop=2
 autocmd BufNewFile,BufRead *.rb set softtabstop=2
 autocmd BufNewFile,BufRead *.rb set expandtab
+
+" some reasonable c++ indentation
+autocmd BufNewFile,BufRead *.cpp set shiftwidth=4
+autocmd BufNewFile,BufRead *.cpp set tabstop=4
+autocmd BufNewFile,BufRead *.cpp set softtabstop=4
+autocmd BufNewFile,BufRead *.cpp set expandtab
+
+autocmd BufNewFile,BufRead *.go set shiftwidth=4
+autocmd BufNewFile,BufRead *.go set tabstop=4
+autocmd BufNewFile,BufRead *.go set softtabstop=4
+
+" some reasonable sh indentation
+autocmd BufNewFile,BufRead *.sh set shiftwidth=2
+autocmd BufNewFile,BufRead *.sh set tabstop=2
+autocmd BufNewFile,BufRead *.sh set softtabstop=2
+autocmd BufNewFile,BufRead *.sh set expandtab
