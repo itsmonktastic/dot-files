@@ -128,5 +128,5 @@ export PATH=$HOME/bin/:$PATH
 
 . ~/.bash_aliases
 
-# with this, a plain "bundle install" should use ~/.gem/ruby/x.x.x instead of system level
-export BUNDLE_PATH=$(ruby -e'puts Gem.user_dir')
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
