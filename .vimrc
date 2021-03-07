@@ -33,7 +33,6 @@ set cursorline " highlight current line
 set colorcolumn=81,121 " show 80char/120char widths
 
 if has("gui_running")
-  set guifont=terminus\ 11 " needs to be installed
   set guioptions -=m " hide the menu bar (gvim)
   set guioptions -=T " hide the toolbar (gvim)
 else
