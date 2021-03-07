@@ -18,6 +18,7 @@ sudo apt-get -y install \
   clipit \
   mutt \
   python-keyring \
+  gnupg2 \
   w3m
 
 # Install a plugin manager for vim (my vimrc expects it)
