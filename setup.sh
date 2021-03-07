@@ -19,6 +19,7 @@ sudo apt-get -y install \
   mutt \
   python-keyring \
   gnupg2 \
+  silversearcher-ag \
   w3m
 
 # Install a plugin manager for vim (my vimrc expects it)
